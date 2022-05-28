@@ -1,0 +1,34 @@
+<app-menu></app-menu>
+<form>
+
+    <input type="text" [(ngModel)]="nomeModelo" name="nomeModelo" placeholder="nome">
+
+    <select name="tipo" id="tipo" [(ngModel)]="tipo">Tipo do Modelo
+        <option value="bermuda">Bermuda</option>
+		<option value="biquini">Biquini</option>
+		<option value="bolsa">Bolsa</option>
+        <option value="bone">Boné</option>
+        <option value="calça">Calça</option>
+        <option value="calçado">Calçado</option>
+        <option value="camisa">Camisa</option>
+        <option value="chapeu">Chapeu</option>
+        <option value="saia">Saia</option>
+    </select>
+
+    <label for="bordado">Possui bordado?</label>
+    <input type="radio" id="bordado" [(ngModel)]="bordado" name="bordado" value="true" required> Sim<br>
+    <input type="radio" id="bordado" [(ngModel)]="bordado" name="bordado" value="false" required> Não<br>
+    
+    <input type="text" [(ngModel)]="responsavel" name="responsavel" placeholder="responsavel">
+
+    <select name="colecao" id="colecao" [(ngModel)]="colecao">Tipo do Modelo
+        <option value=""></option>
+        <option value="bermuda">Bermuda</option>
+    </select>
+    
+    <label for="estampa">Possui estampa?</label>
+    <input type="radio" id="estampa" [(ngModel)]="estampa" name="estampa" value="true" required> Sim<br>
+    <input type="radio" id="estampa" [(ngModel)]="estampa" name="estampa" value="false" required> Não<br>
+
+    <input type="submit" (click)="post()" name="botao" value="botao">
+    </form>

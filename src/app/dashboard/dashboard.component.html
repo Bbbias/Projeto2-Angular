@@ -1,0 +1,40 @@
+<app-menu></app-menu>
+<h3>Bem vindo</h3>
+<p>Acompanhe a visão geral de suas coleções</p>
+
+<div class="colecoes">
+    <h5>coleções</h5>
+    <h3 name="NquantC" [(ngModel)]="NquantC" class="NquantC" ></h3>
+</div>
+
+<div class="modelos">
+    <h5>Modelos</h5>
+    <h3 name="NquantM" [(ngModel)]="NquantM"class="NquantM" ></h3>
+</div>
+
+<div class="orcamento">
+    <h5>Orçamento</h5>
+    <h3 name="preco" [(ngModel)]="preco"class="preco" ></h3>
+</div>
+
+<div class="colunas">
+    <h3>Maiores Orçamentos</h3>
+
+    <table>
+        <thead>
+            <td>ColeçãoID </td>
+            <td>Nome da Coleção</td>
+            <td>Orçamento</td>
+            <td>Responsável</td>
+        </thead>
+    </table>
+
+    <tbody>
+        <tr *ngFor="let dados of colecoes">
+            <td>{{dados.id}}</td>
+            <td>{{dados.nome}}</td>
+            <td>{{dados.orcamento}}</td>
+            <td>{{dados.responsavel}}</td>
+        </tr>
+    </tbody>
+</div>

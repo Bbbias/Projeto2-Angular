@@ -1,0 +1,94 @@
+{
+  "modelos": [
+    {
+      "id": 1,
+      "nomeModelo": " Modelo 1 ",
+      "colecao": 1
+    },
+    {
+      "id": 2,
+      "nomeModelo": " Modelo 2 ",
+      "colecao": 1
+    },
+    {
+      "nomeModelo": "dsas",
+      "tipo": "biquini",
+      "bordado": "true",
+      "responsavel": "df\\f",
+      "colecao": "bermuda",
+      "estampa": "true",
+      "id": 3
+    },
+    {
+      "nomeModelo": "fsda",
+      "tipo": "bermuda",
+      "bordado": "false",
+      "responsavel": "dfs\\",
+      "colecao": "bermuda",
+      "estampa": "true",
+      "id": 5
+    },
+    {
+      "nomeModelo": "Ç;lmhjnbgfv",
+      "tipo": "calça",
+      "responsavel": "ç.lmhjbgfscdaxz",
+      "id": 6
+    }
+  ],
+  "colecoes": [
+    {
+      "nome": "u6y5t4r3e26y5h",
+      "estacao": "tg4ryhtgr3",
+      "orcamento": "y5ht4gr32hy5",
+      "responsavel": "t4r3ey645t323",
+      "marca": "hy5t43r",
+      "ano": "y64t53r",
+      "id": 4
+    },
+    {
+      "nome": "u6y5t4r3e26y5h",
+      "estacao": "tg4ryhtgr3",
+      "orcamento": "y5ht4gr32hy5",
+      "responsavel": "t4r3ey645t323",
+      "marca": "hy5t43r",
+      "ano": "y64t53r",
+      "id": 5
+    },
+    {
+      "nome": "u6y5t4r3e26y5h",
+      "estacao": "tg4ryhtgr3",
+      "orcamento": "y5ht4gr32hy5",
+      "responsavel": "t4r3ey645t323",
+      "marca": "hy5t43r",
+      "ano": "y64t53r",
+      "id": 6
+    },
+    {
+      "nome": "u6y5t4r3e26y5h",
+      "estacao": "tg4ryhtgr3",
+      "orcamento": "y5ht4gr32hy5",
+      "responsavel": "t4r3ey645t323",
+      "marca": "hy5t43r",
+      "ano": "y64t53r",
+      "id": 7
+    },
+    {
+      "nome": "u6y5t4r3e26y5h",
+      "estacao": "tg4ryhtgr3",
+      "orcamento": "y5ht4gr32hy5",
+      "responsavel": "t4r3ey645t323",
+      "marca": "hy5t43r",
+      "ano": "y64t53r",
+      "id": 8
+    },
+    {
+      "nome": "u6y5t4r3e26y5h",
+      "estacao": "tg4ryhtgr3",
+      "orcamento": "y5ht4gr32hy5",
+      "responsavel": "t4r3ey645t323",
+      "marca": "hy5t43r",
+      "ano": "y64t53r",
+      "id": 9
+    }
+  ]
+}

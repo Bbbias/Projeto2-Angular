@@ -1,0 +1,25 @@
+ <app-menu></app-menu>
+<table class="d">
+    <thead>
+        <th>id</th>
+        <th>Nome: </th>
+        <th>Estação:    </th>
+        <th>Responsável: </th>
+    </thead>
+</table>
+<table>  
+    <tbody>
+        <tr *ngFor="let dados of colecoes">
+            <a routerLink="/editasColecao">
+            <td>{{dados.id}}</td>
+            <td>{{dados.nome}}</td>
+            <td>{{dados.estacao}}</td>
+            <td>{{dados.responsavel}}</td>
+        </a>
+            <input type="submit"  (click)="ondelete(dados)" value="Delete">
+            <input type="submit" (click)="onAtualizar()" value="Atualizar">
+        </tr>
+    </tbody>
+</table>
+
+<button><a routerLink="/criarColecao">Criar Coleção</a></button>
